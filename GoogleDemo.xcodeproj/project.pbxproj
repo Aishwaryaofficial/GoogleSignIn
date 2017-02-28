@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C882B1F1E6586C300C9BEF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C882B1E1E6586C300C9BEF0 /* AppDelegate.swift */; };
+		0C882B211E6586C300C9BEF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C882B201E6586C300C9BEF0 /* ViewController.swift */; };
+		0C882B241E6586C300C9BEF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C882B221E6586C300C9BEF0 /* Main.storyboard */; };
+		0C882B261E6586C300C9BEF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C882B251E6586C300C9BEF0 /* Assets.xcassets */; };
+		0C882B291E6586C400C9BEF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C882B271E6586C300C9BEF0 /* LaunchScreen.storyboard */; };
+		0C882B311E658AFF00C9BEF0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C882B301E658AFF00C9BEF0 /* GoogleService-Info.plist */; };
+		9C93E34D682E62DA5763F129 /* Pods_GoogleDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D43C6B0A625CD0AA6EC14AE /* Pods_GoogleDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C882B1B1E6586C300C9BEF0 /* GoogleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C882B1E1E6586C300C9BEF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C882B201E6586C300C9BEF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C882B231E6586C300C9BEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C882B251E6586C300C9BEF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C882B281E6586C300C9BEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C882B2A1E6586C400C9BEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C882B301E658AFF00C9BEF0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1D43C6B0A625CD0AA6EC14AE /* Pods_GoogleDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E81047065F380B2B8793CA8 /* Pods-GoogleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDemo/Pods-GoogleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7432D32E6B1D2652A3043F17 /* Pods-GoogleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDemo/Pods-GoogleDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C882B181E6586C300C9BEF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C93E34D682E62DA5763F129 /* Pods_GoogleDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C882B121E6586C300C9BEF0 = {
+			isa = PBXGroup;
+			children = (
+				0C882B1D1E6586C300C9BEF0 /* GoogleDemo */,
+				0C882B1C1E6586C300C9BEF0 /* Products */,
+				EC76AAB5DFFA8A69E9890BB9 /* Pods */,
+				B6E47B9837A799877F5430DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0C882B1C1E6586C300C9BEF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C882B1B1E6586C300C9BEF0 /* GoogleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C882B1D1E6586C300C9BEF0 /* GoogleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0C882B1E1E6586C300C9BEF0 /* AppDelegate.swift */,
+				0C882B201E6586C300C9BEF0 /* ViewController.swift */,
+				0C882B221E6586C300C9BEF0 /* Main.storyboard */,
+				0C882B251E6586C300C9BEF0 /* Assets.xcassets */,
+				0C882B271E6586C300C9BEF0 /* LaunchScreen.storyboard */,
+				0C882B301E658AFF00C9BEF0 /* GoogleService-Info.plist */,
+				0C882B2A1E6586C400C9BEF0 /* Info.plist */,
+			);
+			path = GoogleDemo;
+			sourceTree = "<group>";
+		};
+		B6E47B9837A799877F5430DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D43C6B0A625CD0AA6EC14AE /* Pods_GoogleDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC76AAB5DFFA8A69E9890BB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E81047065F380B2B8793CA8 /* Pods-GoogleDemo.debug.xcconfig */,
+				7432D32E6B1D2652A3043F17 /* Pods-GoogleDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C882B1A1E6586C300C9BEF0 /* GoogleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C882B2D1E6586C400C9BEF0 /* Build configuration list for PBXNativeTarget "GoogleDemo" */;
+			buildPhases = (
+				B55D955D6E0381B0CFF0811E /* [CP] Check Pods Manifest.lock */,
+				0C882B171E6586C300C9BEF0 /* Sources */,
+				0C882B181E6586C300C9BEF0 /* Frameworks */,
+				0C882B191E6586C300C9BEF0 /* Resources */,
+				DDCA588DA8623D402ACCAAFB /* [CP] Embed Pods Frameworks */,
+				02266DE850EABDD000A223CF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleDemo;
+			productName = GoogleDemo;
+			productReference = 0C882B1B1E6586C300C9BEF0 /* GoogleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C882B131E6586C300C9BEF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Appinventiv;
+				TargetAttributes = {
+					0C882B1A1E6586C300C9BEF0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0C882B161E6586C300C9BEF0 /* Build configuration list for PBXProject "GoogleDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C882B121E6586C300C9BEF0;
+			productRefGroup = 0C882B1C1E6586C300C9BEF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C882B1A1E6586C300C9BEF0 /* GoogleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C882B191E6586C300C9BEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C882B291E6586C400C9BEF0 /* LaunchScreen.storyboard in Resources */,
+				0C882B311E658AFF00C9BEF0 /* GoogleService-Info.plist in Resources */,
+				0C882B261E6586C300C9BEF0 /* Assets.xcassets in Resources */,
+				0C882B241E6586C300C9BEF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02266DE850EABDD000A223CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDemo/Pods-GoogleDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B55D955D6E0381B0CFF0811E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDCA588DA8623D402ACCAAFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDemo/Pods-GoogleDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C882B171E6586C300C9BEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C882B211E6586C300C9BEF0 /* ViewController.swift in Sources */,
+				0C882B1F1E6586C300C9BEF0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C882B221E6586C300C9BEF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C882B231E6586C300C9BEF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C882B271E6586C300C9BEF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C882B281E6586C300C9BEF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C882B2B1E6586C400C9BEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C882B2C1E6586C400C9BEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C882B2E1E6586C400C9BEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E81047065F380B2B8793CA8 /* Pods-GoogleDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Appinventiv.GoogleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0C882B2F1E6586C400C9BEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7432D32E6B1D2652A3043F17 /* Pods-GoogleDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Appinventiv.GoogleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C882B161E6586C300C9BEF0 /* Build configuration list for PBXProject "GoogleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C882B2B1E6586C400C9BEF0 /* Debug */,
+				0C882B2C1E6586C400C9BEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C882B2D1E6586C400C9BEF0 /* Build configuration list for PBXNativeTarget "GoogleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C882B2E1E6586C400C9BEF0 /* Debug */,
+				0C882B2F1E6586C400C9BEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C882B131E6586C300C9BEF0 /* Project object */;
+}
